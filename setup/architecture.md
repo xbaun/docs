@@ -81,7 +81,7 @@ in the cluster. The environment ports are:
       <tr>
          <td>N/A</td>
          <td>N/A</td>
-         <td>resource</td>
+         <td>workspace</td>
          <td>13337, 12212, 26337</td>
       </tr>
       <tr>
@@ -135,7 +135,7 @@ There are two ways to deploy Coder:
    by first pulling in all of the required resources, or you can choose to
    whitelist the URLs/IP addresses needed to access Coder resources
 
-> Coder cannot be deployed in an air-gapped workspace when using the free
+> Coder cannot be deployed in an air-gapped environment when using the free
 > license tier. If you need to deploy an air-gapped Coder instance, please
 > [contact our sales department](mailto:sales@coder.com) to see about purchasing
 > licenses.
